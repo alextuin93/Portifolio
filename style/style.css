@@ -1,0 +1,143 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	line-height: 1.5;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	overflow: auto;
+	background-color: #0E0E0E;
+}
+
+#container{
+		width:auto;
+		position:relative;
+		margin-left:10px;
+		margin-right:10px;
+		margin-top: 75px;
+}
+
+#imagem--header{
+    /*background: url("../img/bg-larger.jpg") no-repeat;*/
+	background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/bg-menu.jpg') no-repeat;
+	background-position: 60% 50%;
+	position: relative;
+	width: 100%;
+	height: 350px;
+	box-shadow: 0px 12px 10px;
+}
+
+/*#container:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+}*/
+
+#content{
+	position: relative;
+    max-width: 800px;
+    padding: 4rem;
+    z-index: 1;
+	margin-left: 25%;
+	text-align: center;
+
+}
+
+#content h2{
+	color: #fff44f;
+	font-family: Bebas Neue;
+	font-size: 4.3rem;
+	margin-bottom: 0.8rem;
+}
+
+#content p{
+	color: white;
+	font-size: 1.2rem;
+	font-weight: 100;
+}
+
+.btn{
+	padding: 0.75rem 1.25rem;
+	text-transform: uppercase;
+	color: #fff44f;
+	font-weight: 550;
+	font-size: 1.1rem;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	background-color: #111;
+	display: inline-block;
+	margin-top: .8rem;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.btn:hover{
+	opacity: 0.8;
+}
+
+.conteiner--apresentacao{
+	width:auto;
+	position:relative;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top: 10px;
+}
+
+.apresentacao{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div img {
+	width:600px;
+	height:600px;
+	/*border-radius:50% 50% 50% 50% / 50% 50% 50% 50%;*/
+	box-shadow: 10px 10px 10px;
+	margin-left: 10%;
+}
+
+.texto-apresentacao {
+	position: relative;
+    max-width: 80%;
+    padding: 4rem;
+    z-index: 1;
+	margin-left: 60px;
+	text-align: justify;
+}
+
+.texto-apresentacao h1 {
+	margin-bottom: 20px;
+	font-family: roboto, arial, helvetica;
+	color:#fff44f;
+	text-align: center;
+}
+
+.texto-apresentacao p {
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 100;
+	margin-bottom: 0.8rem;
+}
+
+.container--projetos{
+	width: auto;
+	position: relative;
+	margin-top:10px;
+}
+
+.titulo {
+	font-family: Bebas Neue;
+	color:#fff44f;
+	text-align: center;
+	font-size: 2rem;
+	text-shadow: 1px 1px 1px;
+}
